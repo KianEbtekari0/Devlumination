@@ -69,6 +69,37 @@ header {
     margin-top: 20px;
 }
 
+.star {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    background-color: #EDEDED;
+    color: #171717;
+    border: 1px #E2E2E2 solid;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.star a {
+    text-decoration: none;
+}
+
+.star-btn img {
+    margin-left: 5px;
+}
+
 .welcome-button {
     margin-top: 30px;
     display: flex;
