@@ -157,6 +157,34 @@ header {
     margin-left: 5px;
 }
 
+.preview-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    width: 100%;
+}
+
+.preview {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    z-index: 10;
+}
+
+.preview img {
+    width: 1247.3500000000001px;
+    height: 702px;
+    color: transparent;
+}
+
+.wave {
+    position: absolute;
+    top: 150;
+    width: 100%;
+}
+
 @media only screen and (max-width: 1440px) {
     header {
         padding: 20px 5%;
@@ -168,3 +196,21 @@ header {
         padding: 20px 3%;
     }
 } 
+
+@media only screen and (max-width: 640px) {
+    .preview-image {
+        margin-top: 12rem;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .preview-image {
+        margin-top: 14rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .preview-image {
+        margin-top: 16rem;
+    }
+}
