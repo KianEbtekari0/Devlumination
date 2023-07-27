@@ -186,6 +186,55 @@ header {
     z-index: -1;
 }
 
+.section-2 {
+    margin-top: 370px;
+    margin-bottom: 100px;
+}
+
+.text {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-2 h1 {
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 800;
+    color: #171717;
+}
+
+.section-2 p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #6F6F6F;
+}
+
+.section-3 {
+    margin-top: 9rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.section-3 h1 {
+    color: #171717;
+    font-size: 60px;
+    letter-spacing: -2px;
+    display: flex;
+    text-align: center;
+    font-weight: 800;
+}
+
+.section-3 p {
+    color: #6F6F6F;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 711px;
+    text-decoration: inherit;
+}
 
 footer {
     display: flex;
