@@ -173,8 +173,9 @@ header {
 }
 
 .preview img {
-    width: 1247.3500000000001px;
-    height: 702px;
+    max-width: 100%;
+    width: 100%;  
+    height: auto;
     color: transparent;
 }
 
