@@ -50,7 +50,43 @@ header {
 .icons a {
     width: 25px;
     height: 25px;
-    margin-right: 20px;
+    margin-right: 15px;
+}
+
+
+.hamburger1 {
+    height: 45px;
+    width: 45px;
+}
+
+#toggle1 {
+    display: none;
+}
+
+#toggle1:checked ~ .menu1 {
+    height: 200px;
+}
+
+.menu-img {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+.menu1 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.menu1 a {
+    color: #6F6F6F;
+    padding: 10px 0;
+    text-decoration: none;
 }
 
 .welcome {
@@ -484,7 +520,7 @@ footer {
 
 @media only screen and (max-width: 1024px) {
     .preview-image {
-        margin-top: 16rem;
+        margin-top: 10rem;
     }
 }
 
@@ -626,5 +662,19 @@ footer {
 
     .text-faq p {
         font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    nav ul {
+        display: none;
+    }
+
+    .menu-img {
+        display: block;
+    }
+
+    .preview-image {
+        margin-top: 8rem;
     }
 }
