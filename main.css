@@ -57,6 +57,7 @@ header {
 .hamburger1 {
     height: 45px;
     width: 45px;
+    cursor: pointer;
 }
 
 #toggle1 {
