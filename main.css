@@ -221,10 +221,13 @@ header {
 
 .preview img {
     max-width: 100%;
-    width: 100%;  
+    width: 85%;  
     height: auto;
     color: transparent;
     border-radius: 30px;
+    /* box-shadow: 0px 100px 150px 70px rgba(148, 185, 255, 0.477);  */
+    /* box-shadow: rgba(148, 185, 255, 0.477) 0px 80px 100px 80px; */
+    box-shadow: rgba(148, 185, 255, 0.700) 15px 30px 150px 0px, rgba(148, 185, 255, 0.500) 0px 120px 150px 15px;
 }
 
 .wave {
